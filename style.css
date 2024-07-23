@@ -1,0 +1,38 @@
+body{
+  padding: 300px;
+}
+#main{
+  
+  padding: 200px;
+  text-align: center;
+}
+span{
+  position: relative;
+  left: 130px;
+  font-size: 30px;
+  /* background-color: black; */
+    
+  padding: 0px;
+
+  display: flex;
+}
+#name1{
+  color: aliceblue;
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+}
+#name
+{
+  text-align: center;
+   color: blue;
+  background-color: black;
+  padding: 10px;
+}
+button{
+  position: relative;
+  top: 70px;
+  font-size: 20px;
+  background-color: rgba(240, 248, 255, 0.331);
+  border: none;
+}

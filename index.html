@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div id="main">
+      <span >
+      <p id="name1">Backgroundcolor : </p>
+      <p id="name"> </p>
+
+      </span>
+      <button onclick="changeColor()">
+        change
+      </button>
+     </div>
+     <script>
+
+const colors = ["red", "blue", "green", "yellow", "orange"];
+
+
+let index = 0;
+    function changeColor() {
+    const main = document.getElementById("main").style.backgroundColor = colors[index];
+    const name = document.getElementById("name");
+    name.innerText=colors[index];
+    index = (index + 1) % colors.length; 
+}
+
+     </script>
+</body>
+</html>
